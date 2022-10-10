@@ -1,0 +1,9 @@
+name: Minigame
+version: '1.0-SNAPSHOT'
+main: com.afagaming.minigame.Minigame
+api-version: 1.17
+prefix: Minigame
+authors: [ AfaGaming ]
+commands:
+  arena:
+    description: all arena related commands.

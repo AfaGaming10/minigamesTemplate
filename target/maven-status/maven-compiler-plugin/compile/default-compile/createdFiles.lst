@@ -1,0 +1,11 @@
+com\afagaming\minigame\manager\ArenaManager.class
+com\afagaming\minigame\Listeners\GameListener$1.class
+com\afagaming\minigame\Minigame.class
+com\afagaming\minigame\command\ArenaCommand.class
+com\afagaming\minigame\Listeners\ConnectListener.class
+com\afagaming\minigame\instance\Arena.class
+com\afagaming\minigame\manager\ConfigManager.class
+com\afagaming\minigame\instance\Game.class
+com\afagaming\minigame\instance\Countdown.class
+com\afagaming\minigame\Listeners\GameListener.class
+com\afagaming\minigame\GameState.class
