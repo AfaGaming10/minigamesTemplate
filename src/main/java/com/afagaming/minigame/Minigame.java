@@ -21,12 +21,8 @@ public final class Minigame extends JavaPlugin {
         ConfigManager.setupConfig(this);
         arenaManager = new ArenaManager(this);
 
-
-            Bukkit.getLogger().warning("This plugin is not enabled in the config! Plugin Disabled!");
-            Bukkit.getPluginManager().disablePlugin(this);
-
             // listeners
-            getServer().getPluginManager().registerEvents(new ConnectListener(this), this);
+            this.getServer().getPluginManager().registerEvents(new ConnectListener(this), this);
             getServer().getPluginManager().registerEvents(new GameListener(this), this);
 
             // commands
